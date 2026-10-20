@@ -1,35 +1,28 @@
-
 class Solution {
 public:
-    void printSubsets(vector<int>& nums, vector<int>& combin,
-                      vector<vector<int>>& ans, int i) {
+    void getAllSubsets(vector<int>& nums, vector<int>& ans, int i,
+                       vector<vector<int>>& allsubsets) {
+        // base case
         if (i == nums.size()) {
-            ans.push_back(combin);
+            allsubsets.push_back(ans);
             return;
         }
-
-        // Include
-        combin.push_back(nums[i]);
-        printSubsets(nums, combin, ans, i + 1);
-        combin.pop_back(); // Backtrack
-
-        // Exclude
+        // include
+        ans.push_back(nums[i]);
+        getAllSubsets(nums, ans, i + 1, allsubsets);
+        ans.pop_back();
         int idx = i + 1;
-        while (idx < nums.size() && nums[idx] == nums[i]) {
+        while (idx < nums.size() && nums[idx] == nums[idx - 1])
             idx++;
-        }
 
-        printSubsets(nums, combin, ans, idx);
+        // exclude
+        getAllSubsets(nums, ans, idx, allsubsets);
     }
-
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         sort(nums.begin(), nums.end());
-
-        vector<int> combin;
-        vector<vector<int>> ans;
-
-        printSubsets(nums, combin, ans, 0);
-
-        return ans;
+        vector<vector<int>> allsubsets;
+        vector<int> ans;
+        getAllSubsets(nums, ans, 0, allsubsets);
+        return allsubsets;
     }
 };
