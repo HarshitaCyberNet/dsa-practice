@@ -88,14 +88,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0234-palindrome-linked-list](https://github.com/HarshitaCyberNet/dsa-practice/tree/master/0234-palindrome-linked-list) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/HarshitaCyberNet/dsa-practice/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/HarshitaCyberNet/dsa-practice/tree/master/0876-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
+| [0234-palindrome-linked-list](https://github.com/HarshitaCyberNet/dsa-practice/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/HarshitaCyberNet/dsa-practice/tree/master/0876-middle-of-the-linked-list) |
 ## Doubly-Linked List
 |  |
 | ------- |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/HarshitaCyberNet/dsa-practice/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
+## Stack
+|  |
+| ------- |
+| [0234-palindrome-linked-list](https://github.com/HarshitaCyberNet/dsa-practice/tree/master/0234-palindrome-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0234-palindrome-linked-list](https://github.com/HarshitaCyberNet/dsa-practice/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
