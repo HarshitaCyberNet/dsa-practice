@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/HarshitaCyberNet/dsa-practice/tree/master/0037-sudoku-solver) |
+| [0138-copy-list-with-random-pointer](https://github.com/HarshitaCyberNet/dsa-practice/tree/master/0138-copy-list-with-random-pointer) |
 ## Backtracking
 |  |
 | ------- |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0138-copy-list-with-random-pointer](https://github.com/HarshitaCyberNet/dsa-practice/tree/master/0138-copy-list-with-random-pointer) |
 | [0234-palindrome-linked-list](https://github.com/HarshitaCyberNet/dsa-practice/tree/master/0234-palindrome-linked-list) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/HarshitaCyberNet/dsa-practice/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/HarshitaCyberNet/dsa-practice/tree/master/0876-middle-of-the-linked-list) |
